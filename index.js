@@ -1,6 +1,6 @@
 // write your code below!
 
-const happyHolidays = () => {
+function happyHolidays () {
   return "Happy holidays!"
 };
 
