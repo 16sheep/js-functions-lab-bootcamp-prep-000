@@ -5,5 +5,5 @@ const happyHolidays = () => {
 }
 
 const happyHolidaysTo = (name) => {
-  return "Happy holidays!"
+  return `Happy holidays, ${name}!`
 }
