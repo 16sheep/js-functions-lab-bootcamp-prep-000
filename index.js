@@ -12,6 +12,6 @@ const happyHolidayTo = (name, holiday) => {
   return `Happy ${holiday}, ${name}!`
 }
 
-const holidayCountDown = (days, holiday) => {
+const holidayCountdown = (days, holiday) => {
   return `It's ${days} days until ${holiday}!`
 }
