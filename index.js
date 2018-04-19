@@ -4,14 +4,14 @@ function happyHolidays () {
   return "Happy holidays!"
 };
 
-const happyHolidaysTo = (name) => {
+function happyHolidaysTo (name){
   return `Happy holidays, ${name}!`
 }
 
-const happyHolidayTo = (name, holiday) => {
+function happyHolidayTo (name, holiday) {
   return `Happy ${holiday}, ${name}!`
 }
 
-const holidayCountdown = (days, holiday) => {
+function holidayCountdown (days, holiday) {
   return `It's ${days} days until ${holiday}!`
 }
